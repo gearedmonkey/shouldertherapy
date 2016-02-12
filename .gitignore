@@ -1,0 +1,4 @@
+# Here's our .gitignore file --sorianog
+
+## Ignore the .idea directory 
+.idea/
