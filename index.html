@@ -2,18 +2,57 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello React!</title>
-	<script src="https://fb.me/react-0.14.7.js"></script>
-<script src="https://fb.me/react-dom-0.14.7.js"></script>
+    <title>OSTG</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
   </head>
   <body>
-    <div id="example"></div>
-    <script type="text/babel">
-      ReactDOM.render(
-        <h1>Hello, world!</h1>,
-        document.getElementById('example')
-      );
-    </script>
+    <div class="container">
+	<nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="home.html">OSTG</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active" ><a href="index.html">Home</a></li>
+                    <li><a href="games.html">Games</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<div style="text-align:center;">
+		<div class="row" style="background-color:gray">
+			<h1>Welcome to OSTG!</h1>
+		</div>
+		<div class="row" style="background-color:lightgray">
+			<img src="img/game-1.jpg"></img>
+		<div>
+		<div class="row" style="background-color:#DBF6FF; margin: 0 auto; padding-left:300px; padding-right:300px;">
+			<p>This project will create a game or games that help patients that have recently had rotator cuff surgery. The game will use a Kinect to monitor the patient movements and provide feedback as to whether or not the movements are correct. The benefit is twofold. One, the patient performs movements that improves their rate of recovery and the success of the surgery. Second, the patients do not need to attend physical therapy sessions along with the doctors being able to focus on other patients.</p>
+<p>The functional requirements involve a game that needs to interact with the user correctly by being able to perform the following. The game will be performed on a Kinect in order to monitor user movements. The game is going to need to provide a way to teach the patient how to correctly do the movements as well as, once the training is complete, provide a portion of the game where they can repetitively perform the movement. The application will need to a have a database that stores statistics and other relevant information. The application will also need to provide a way for the patient to access their own records and statistics. Doctors comprising of surgeons and Physical therapist should be able to view statistics for all of their patients. </p>
+<p>Non-functional requirements involve a game that is responsive to the user movements and does not have high latency. The game should be fun for the user/patient while providing meaningful movements to boost recovery. Recovery times and enjoyment should be enhanced. 
+<p>The statistics displayed to doctors and administrators should provide a method of access via the web. The game needs to be deployed on a Kinect. </p>
+<p>The goal is to enhance the patient experience during therapy and bring them through the recovery process with more success.</p>
+	</div>
+	<div class="row">
+	<h2>Project members:</h2>
+	<hr/>
+	TreJon House<br/>Jordan Longato<br/>Sean Khodl<br/>Gerald Soriano
+	</div>
   </body>
 </html>	
