@@ -7,11 +7,6 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <style>
-        .table {
-            table-layout: fixed;
-        }
-    </style>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -35,12 +30,13 @@
     </nav>
     <div class="container">
         <div class="jumbotron">
-            <h1>Game 1 - Stats</h1>
-            <p><img src="img/game-1.jpg" alt="Game 1"></p>
-            <table class="table table-bordered table-condensed">
+            <h1 style="text-align: center">Game 1 - Stats</h1>
+            <p style="text-align: center"><img src="img/game-1.jpg" alt="Game 1"></p>
+            <div style="max-width: 575px">
+            <table class="table table-bordered table-condensed" style="margin-left: 38.5%">
                 <thead>
                     <tr>
-                        <th class="col-lg-1">Stat</th>
+                        <th class="col-lg-2">Stat</th>
                         <th class="col-lg-2">Value</th>
                     </tr>
                 </thead>
@@ -59,6 +55,7 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </div>
     </div>
 </body>
